@@ -6,6 +6,6 @@ RUN tar -zxvf /tmp/ZenTaoPMS.9.2.1.zbox_64.tar.gz -C /opt \
 
 COPY entrypoint.sh /usr/local/bin/
 
-EXPOSE 80
+EXPOSE 8080
 
 ENTRYPOINT  ["entrypoint.sh"]
